@@ -1,13 +1,13 @@
 # Cloudsys TP1
 
 ## Group members
-- Thomas Frantzen: AWS Amazon
-- Abir Chebbi: GCE
-- Sébastien Peiris: Azure
-- Benoist Wolleb: SwitchEngines
-- Loïck Jeanneret: Exoscale
+- Thomas Frantzen: Amazon Web Services
+- Abir Chebbi: Google Compute Engine
+- Sébastien Peiris: Microsoft Azure
+- Benoist Wolleb: SwitchEngines / OpenStack
+- Loïck Jeanneret: Exoscale / CloudStack
 
 ## Description
 See dedicated readme for each service:
 
-[SwitchEngines](SwitchEngines-Openstack)
+[SwitchEngines](SwitchEngines-OpenStack)

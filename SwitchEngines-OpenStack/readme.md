@@ -1,7 +1,7 @@
 # Description
-This script will deploy a working wordpress system with a database and two frontends on SwitchEngines/Openstack. It will:
+This script will deploy a working wordpress system with a database and two frontends on SwitchEngines/OpenStack. It will:
 
-- Read the auth file `clouds.yaml` (must exist in the same directory) that allows to connect to Openstack
+- Read the auth file `clouds.yaml` (must exist in the same directory) that allows to connect to OpenStack
 - Create the 2 security groups, corresponding to the database and the web server profiles (more details below)
 - Spawn the database instance, based on a preconfigured image
 - Wait for the instance to be active and collect its IP
