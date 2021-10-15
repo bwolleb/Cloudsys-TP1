@@ -52,7 +52,7 @@ each consuming 20Go of space. So the remaining space is 70Go, allowing max 3 ins
 ## Wordpress
 The applicative service we chose is Wordpress. During the setup, Wordpress initializes all its data using the current server name, so if the service was setup using a floating IP, that same IP is saved in the database and will be used to process and serve the requests. So if the floating IP changes, Wordpress will be confused and appear broken. This is because Wordpress is intended to always run with a domain name, and updating it is not trivial
 
-Therefore, for this lab Wordpress was setup using a fictive domain name `cloudsys-tp1` that must be used to access the service instead of using the floating public ip directly. This can be done by editing the `/etc/hosts` file for example.
+Therefore, for this lab Wordpress was setup using a fictive domain name `cloudsys-tp1` that must be used to access the service instead of using the floating public ip directly. This can be done by editing the `/etc/hosts` file for example. The link that must be used to access the service is therefore: http://cloudsys-tp1/wordpress
 
 This is however an issue purely related to the application and does not impact our analysis of the IaaS platforms.
 
