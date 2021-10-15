@@ -38,6 +38,15 @@ The script is written in Python (tested with version 3.6.9) and uses the `python
 - Load the required python environment (conda, virtualenv, ...)
 - Run the script: `python deploy.py`
 
+## Post test cleaning
+When the system is no longer needed, the following steps must be done to clean the project in order to be able to run the deployment again later:
+
+- Destroy all instances (1 database + n frontends)
+- Destroy the instances volumes (1 database + n frontends)
+- Destroy the security groups (SecGrp-DB, SecGrp-Front)
+- (Destroy the LBaaS)
+- (Free the unbound floating IPs)
+
 # Issues and limitations
 ## Frontend instances
 The account on which the system was tested currently only allows 3 running instances because of limited storage space. The total available space is 150Go and the smallest working instance consumes 20Go. The space is partially used for:
