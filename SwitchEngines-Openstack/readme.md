@@ -73,3 +73,5 @@ Therefore, the deployment script does not create the load balancing service, but
 - Adapting the frontend security group to allow incoming HTTP requests from the LBaaS only 
 - Create the load balancer and add all frontends as members
 - Associate a public floating IP to the load balancer
+
+An alternative way to do this would have been to implement a load balancing service ourself, using `haproxy` for example.
