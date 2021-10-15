@@ -36,7 +36,7 @@ def main():
 	conn = openstack.connect(auth=creds["clouds"]["openstack"]["auth"])
 	
 	# Currently limited to 2 because of storage limit
-	nbFrontends = 1
+	nbFrontends = 2
 	dbImg = conn.compute.find_image("cloudsys-tp1-db-img")
 	frontImg = conn.compute.find_image("cloudsys-tp1-front-img")
 	flavor = conn.compute.find_flavor("n1.small")
