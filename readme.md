@@ -10,4 +10,6 @@
 ## Description
 See dedicated readme for each service:
 
-[SwitchEngines](SwitchEngines-OpenStack)
+- [Microsoft Azure](Microsoft%20Azure)
+- [SwitchEngines](SwitchEngines-OpenStack)
+- [Exoscale](Exoscale-CloudStack)
