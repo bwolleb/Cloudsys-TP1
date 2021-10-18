@@ -5,10 +5,10 @@ The following instruction can be use to connect to your AWS account :
 1) you need to create a user key in IAM service
 2) get Acces Key and Secret Acces Key
 3) Execute in the console : aws configure
-3.1) Enter Acces Key
-3.2) Enter Secret Access Key
-3.3) Enter Region : us-west-2
-3.4) Enter extension : json
+4) Enter Acces Key
+5) Enter Secret Access Key
+6) Enter Region : us-west-2
+7) Enter extension : json
 
 # Generate Key Pair
 The python file generatekeypair.py file can create a key pair to connect to aws (key-pair.ppm).
